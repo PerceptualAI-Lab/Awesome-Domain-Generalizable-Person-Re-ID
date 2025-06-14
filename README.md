@@ -229,7 +229,7 @@ We categorize recent DG-ReID papers by methodology:
 
 We include commonly used datasets for evaluating DG-ReID performance.  
 
-| Dataset    | Venue   | Type | #ID                | #Image        | #Cam /| URL                                           |
+| Dataset    | Venue   | Type | #ID                | #Image        | #Cam | URL                                           |
 | ---------- | ------- | ------- | ------------------------- | ------------ | ------------------- | --------------------------------------------- |
 | CUHK01  | ACCV'12   | 🔹 Train | 971 | 3,884 | 2 | [🔗](https://vision.middlebury.edu/flow/data/) |
 | CUHK02     | ACCV'12 | 🔹 Train  | 1,816 | 7,264 | 10 | [🔗](https://www.crcv.ucf.edu/data/UCF101.php) |
