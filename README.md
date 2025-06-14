@@ -181,7 +181,7 @@ We categorize recent DG-ReID papers by methodology:
 </thead>
 <tbody>
   <tr><td align="left"><a href="https://dl.acm.org/doi/full/10.1145/3701036">CLIP-DFGS: A Hard Sample Mining Method for CLIP in Generalizable Person Re-Identification</a></td><td align="center">ACM TOMM</td><td align="center">2024</td></tr>
-  <tr><td align="left"><a href="https://ieeexplore.ieee.org/abstract/document/10858181"> </a></td><td align="center">IEEE Transactions on Information Forensics and Security</td><td align="center">2025</td></tr>
+  <tr><td align="left"><a href="https://ieeexplore.ieee.org/abstract/document/10858181">CILP-FGDI: Exploiting Vision-Language Model for Generalizable Person Re-Identification</a></td><td align="center">IEEE Transactions on Information Forensics and Security</td><td align="center">2025</td></tr>
 </tbody>
 </table>
 
