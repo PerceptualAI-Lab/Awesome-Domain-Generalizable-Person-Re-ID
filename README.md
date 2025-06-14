@@ -80,7 +80,7 @@ You can find the preprint of our survey here:
 
 
 The overview of our survey paper:
-![VFI Categories](https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID/blob/main/figures/taxonomy.pdf)
+![taxonomy](https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID/blob/main/figures/taxonomy.png)
 
 ---
 
