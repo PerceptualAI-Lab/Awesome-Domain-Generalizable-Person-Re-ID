@@ -119,6 +119,7 @@ We categorize recent DG-ReID papers by methodology:
 </tbody>
 </table>
 
+
 ## Memory-based
 <table>
 <thead>
@@ -146,9 +147,9 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
-  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
-  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Bai_Person30K_A_Dual-Meta_Generalization_Network_for_Person_Re-Identification_CVPR_2021_paper.pdf">Person30K: A Dual-Meta Generalization Network for Person Re-Identification</a></td><td align="center">CVPR</td><td align="center">2021</td></tr>
+  <tr><td align="left"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Learning_to_Generalize_Unseen_Domains_via_Memory-based_Multi-Source_Meta-Learning_for_CVPR_2021_paper.pdf">Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification</a></td><td align="center">CVPR</td><td align="center">2021</td></tr>
+  <tr><td align="left"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Ni_Meta_Distribution_Alignment_for_Generalizable_Person_Re-Identification_CVPR_2022_paper.pdf">Meta distribution alignment for generalizable person re-identification</a></td><td align="center">CVPR</td><td align="center">2022</td></tr>
 </tbody>
 </table>
 
@@ -163,7 +164,9 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-
+  <tr><td align="left"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Cloning_Outfits_From_Real-World_Images_to_3D_Characters_for_Generalizable_CVPR_2022_paper.pdf">Cloning Outfits From Real-World Images to 3D Characters for Generalizable Person Re-Identification</a></td><td align="center">CVPR</td><td align="center">2022</td></tr>
+  <tr><td align="left"><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Dou_Identity-Seeking_Self-Supervised_Representation_Learning_for_Generalizable_Person_Re-Identification_ICCV_2023_paper.pdf">Identity-Seeking Self-Supervised Representation Learning for Generalizable Person Re-identification</a></td><td align="center">ICCV</td><td align="center">2023</td></tr>
+  <tr><td align="left"><a href="https://arxiv.org/pdf/2411.11471">Generalizable Person Re-identification via Balancing Alignment and Uniformity</a></td><td align="center">NeurIPS</td><td align="center">2024</td></tr>
 </tbody>
 </table>
 
@@ -177,9 +180,8 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
-  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
-  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href="https://dl.acm.org/doi/full/10.1145/3701036">CLIP-DFGS: A Hard Sample Mining Method for CLIP in Generalizable Person Re-Identification</a></td><td align="center">ACM TOMM</td><td align="center">2024</td></tr>
+  <tr><td align="left"><a href="https://ieeexplore.ieee.org/abstract/document/10858181"> </a></td><td align="center">IEEE Transactions on Information Forensics and Security</td><td align="center">2025</td></tr>
 </tbody>
 </table>
 
@@ -194,9 +196,8 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
-  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
-  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href="https://openaccess.thecvf.com/content/WACV2024/papers/Li_Mitigate_Domain_Shift_by_Primary-Auxiliary_Objectives_Association_for_Generalizing_Person_WACV_2024_paper.pdf">Mitigate Domain Shift by Primary-Auxiliary Objectives Association for Generalizing Person ReID</a></td><td align="center">WACV</td><td align="center">2024</td></tr>
+  <tr><td align="left"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/28468">Diversity-Authenticity Co-constrained Stylization for Federated Domain Generalization in Person Re-identification</a></td><td align="center">AAAI</td><td align="center">2024</td></tr>
 </tbody>
 </table>
 
