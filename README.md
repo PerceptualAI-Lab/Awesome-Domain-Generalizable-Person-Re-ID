@@ -18,7 +18,7 @@ This repository provides a curated collection of papers, benchmarks, and resourc
 
 ## 📘 Abstract
 
-Video Frame Interpolation (VFI) is a fundamental Low-Level Vision (LLV) task that synthesizes intermediate frames between existing ones while maintaining spatial and temporal coherence. VFI techniques have evolved from classical motion compensation-based approach to deep learning-based approach, including kernel-, flow-, hybrid-, phase-, GAN-, Transformer-, Mamba-, and more recently diffusion model-based approach. We introduce AceVFI, the most comprehensive survey on VFI to date, covering over 250+ papers across these approaches. We systematically organize and describe VFI methodologies, detailing the core principles, design assumptions, and technical characteristics of each approach. We categorize the learning paradigm of VFI methods namely, Center-Time Frame Interpolation (CTFI) and Arbitrary-Time Frame Interpolation (ATFI). We analyze key challenges of VFI such as large motion, occlusion, lighting variation, and non-linear motion. In addition, we review standard datasets, loss functions, evaluation metrics. We examine applications of VFI including event-based, cartoon, medical image VFI and joint VFI with other LLV tasks. We conclude by outlining promising future research directions to support continued progress in the field. This survey aims to serve as a unified reference for both newcomers and experts seeking a deep understanding of modern VFI landscapes.
+Person Re-identification (ReID) aims to retrieve images of the same individual captured across non-overlapping camera views, making it a critical component of intelligent surveillance systems. Traditional ReID methods assume that the training and test domains share similar characteristics and primarily focus on learning discriminative features within a given domain. However, they often fail to generalize to unseen domains due to domain shifts caused by variations in viewpoint, background, and lighting conditions. To address this issue, Domain-Adaptive ReID (DA-ReID) methods have been proposed. These approaches incorporate unlabeled target domain data during training and improve performance by aligning feature distributions between source and target domains. However, their reliance on access to target domain data limits their scalability and makes them less suitable for real-world deployments, where such data may not be available in advance. Domain-Generalizable ReID (DG-ReID) tackles a more realistic and challenging setting by aiming to learn domain-invariant features without relying on any target domain data. Recent methods have explored various strategies to enhance generalization across diverse environments, but the field remains relatively underexplored. In this paper, we present a comprehensive survey of DG-ReID. We first review the architectural components of DG-ReID including the overall setting, commonly used backbone networks and multi-source input configurations. Then, we categorize and analyze domain generalization modules that explicitly aim to learn domain-invariant and identity-discriminative representations. To examine the broader applicability of these techniques, we further conduct a case study on a related task that also involves distribution shifts. Finally, we discuss recent trends, open challenges, and promising directions for future research in DG-ReID. To the best of our knowledge, this is the first systematic survey dedicated to DG-ReID.
 
 
 ---
@@ -90,7 +90,7 @@ The overview of our survey paper:
 We categorize recent VFI papers by methodology:  
 
 
-## 2.1 Motion Compensation-based
+## 3.1 Normalization-based
 
 <table>
 <thead>
@@ -101,23 +101,13 @@ We categorize recent VFI papers by methodology:
 </tr>
 </thead>
 <tbody>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/document/5440975">Motion-compensated Frame Rate Up-conversion—part Ii: New Algorithms for Frame Interpolation</a></td><td align="center">IEEE Transactions on Broadcasting</td><td align="center">2010</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/document/5443548">Motion-compensated Frame Rate Up-conversion—part I: Fast Multi-frame Motion Estimation</a></td><td align="center">IEEE Transactions on Broadcasting</td><td align="center">2010</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/document/4480123">A Multistage Motion Vector Processing Method for Motion-compensated Frame Interpolation</a></td><td align="center">IEEE Transactions on Image Processing</td><td align="center">2008</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/document/4429281">Motion Compensated Frame Rate Up-conversion Using Extended Bilateral Motion Estimation</a></td><td align="center">IEEE Transactions on Consumer Electronics</td><td align="center">2008</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/document/4162523">Motion-compensated Frame Interpolation Using Bilateral Motion Estimation and Adaptive Overlapped Block Motion Compensation</a></td><td align="center">IEEE Transactions on Circuits and Systems for Video Technology</td><td align="center">2007</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/document/1309458">Motion Compensated Frame Interpolation by New Block-based Motion Estimation Algorithm</a></td><td align="center">IEEE Transactions on Consumer Electronics</td><td align="center">2004</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1037026">Adaptive Motion-compensated Interpolation for Frame Rate Up-conversion</a></td><td align="center">IEEE Transactions on Consumer Electronics</td><td align="center">2002</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=538926">A Method for Motion Adaptive Frame Rate Up-conversion</a></td><td align="center">IEEE Transactions on Circuits and Systems for Video Technology</td><td align="center">1996</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=305878">Motion Compensation Based on Spatial Transformations</a></td><td align="center">IEEE Transactions on Circuits and Systems for Video Technologyy</td><td align="center">1994</td></tr>
 <tr><td align="left"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=44281">Fractional Frame Rate Up-conversion Using Weighted Median Filters</a></td><td align="center">IEEE Transactions on Consumer Electronics</td><td align="center">1989</td></tr>
+<tr><td align="left"><a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Niklaus_Video_Frame_Interpolation_CVPR_2017_paper.pdf">Video Frame Interpolation via Adaptive Convolution</a></td><td align="center">CVPR</td><td align="center">2017</td></tr>
 </tbody>
 </table>
 
 
-## 2.2 Deep Learning-based
-
-### 2.2.1 Kernel-based
+## 3.2 Mixture-of-Experts-based
 
 <table>
 <thead>
@@ -128,35 +118,11 @@ We categorize recent VFI papers by methodology:
 </tr>
 </thead>
 <tbody>
-<tr><td align="left"><a href="https://arxiv.org/abs/2404.11108">LADDER: An Efficient Framework for Video Frame Interpolation</a></td><td align="center">arXiv</td><td align="center">2024</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content/WACV2023/supplemental/Kalluri_FLAVR_Flow-Agnostic_Video_WACV_2023_supplemental.pdf">FLAVR: Flow-agnostic Video Representations for Fast Frame Interpolation</a></td><td align="center">WACV</td><td align="center">2023</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Exploring_Motion_Ambiguity_and_Alignment_for_High-Quality_Video_Frame_Interpolation_CVPR_2023_paper.pdf">Exploring Motion Ambiguity and Alignment for High-quality Video Frame Interpolation</a></td><td align="center">CVPR</td><td align="center">2023</td></tr>
-<tr><td align="left"><a href="https://dl.acm.org/doi/pdf/10.1145/3547660">L2BEC2: Local Lightweight Bidirectional Encoding and Channel Attention Cascade for Video Frame Interpolation</a></td><td align="center">ACM Transactions on Multimedia Computing, Communications and Applications</td><td align="center">2023</td></tr>
-<tr><td align="left"><a href="https://arxiv.org/pdf/2202.07731">Enhancing Deformable Convolution Based Video Frame Interpolation with Coarse-to-fine 3d CNN</a></td><td align="center">ICIP</td><td align="center">2022</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/document/9747182/">Video Frame Interpolation via Local Lightweight Bidirectional Encoding with Channel Attention Cascade</a></td><td align="center">ICASSP</td><td align="center">2022</td></tr>  
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content/WACV2021/papers/Niklaus_Revisiting_Adaptive_Convolutions_for_Video_Frame_Interpolation_WACV_2021_paper.pdf">Revisiting Adaptive Convolutions for Video Frame Interpolation</a></td><td align="center">WACV</td><td align="center">2021</td></tr>
-<tr><td align="left"><a href="https://arxiv.org/pdf/2104.01517">PDWN: Pyramid Deformable Warping Network for Video Interpolation</a></td><td align="center">IEEE Open Journal of Signal Processing</td><td align="center">2021</td></tr>
-<tr><td align="left"><a href="https://arxiv.org/pdf/2008.10680">Video Frame Interpolation via Generalized Deformable Convolution</a></td><td align="center">IEEE Transactions on Multimedia</td><td align="center">2021</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9501506">Multiple Video Frame Interpolation via Enhanced Deformable Separable Convolution</a></td><td align="center">IEEE Transactions on Pattern Analysis and Machine Intelligence</td><td align="center">2021</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_CDFI_Compression-Driven_Network_Design_for_Frame_Interpolation_CVPR_2021_paper.pdf">CDFI: Compression-Driven Network Design for Frame Interpolation</a></td><td align="center">CVPR</td><td align="center">2021</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Xiang_Zooming_Slow-Mo_Fast_and_Accurate_One-Stage_Space-Time_Video_Super-Resolution_CVPR_2020_paper.pdf">Zooming Slow-mo: Fast and Accurate One-stage Space-time Video Super-resolution</a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Gui_FeatureFlow_Robust_Video_Interpolation_via_Structure-to-Texture_Generation_CVPR_2020_paper.pdf">Featureflow: Robust Video Interpolation via Structure-to-texture Generation</a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Lee_AdaCoF_Adaptive_Collaboration_of_Flows_for_Video_Frame_Interpolation_CVPR_2020_paper.pdf">Adacof: Adaptive Collaboration of Flows for Video Frame Interpolation</a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
-<tr><td align="left"><a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590103.pdf">Bmbc: Bilateral Motion Estimation with Bilateral Cost Volume for Video Interpolation</a></td><td align="center">ECCV</td><td align="center">2020</td></tr>
-<tr><td align="left"><a href="https://cdn.aaai.org/ojs/6634/6634-13-9862-1-10-20200520.pdf">Video Frame Interpolation via Deformable Separable Convolution</a></td><td align="center">AAAI</td><td align="center">2020</td></tr>
-<tr><td align="left"><a href="https://arxiv.org/pdf/1810.08768">Memc-net: Motion Estimation and Motion Compensation Driven Neural Network for Video Interpolation and Enhancement</a></td><td align="center">IEEE Transactions on Pattern Analysis and Machine Intelligence</td><td align="center">2019</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Deformable_ConvNets_V2_More_Deformable_Better_Results_CVPR_2019_paper.pdf">Deformable Convnets v2: More Deformable, Better Results</a></td><td align="center">CVPR</td><td align="center">2019</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Peleg_IM-Net_for_High_Resolution_Video_Frame_Interpolation_CVPR_2019_paper.pdf">IM-Net for High Resolution Video Frame Interpolation</a></td><td align="center">CVPR</td><td align="center">2019</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0130.pdf">Context-aware Synthesis for Video Frame Interpolation</a></td><td align="center">CVPR</td><td align="center">2018</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Niklaus_Video_Frame_Interpolation_CVPR_2017_paper.pdf">Video Frame Interpolation via Adaptive Convolution</a></td><td align="center">CVPR</td><td align="center">2017</td></tr>
-<tr><td align="left"><a href="https://arxiv.org/pdf/1708.01692">Video Frame Interpolation via Adaptive Separable Convolution</a></td><td align="center">ICCV</td><td align="center">2017</td></tr>
-<tr><td align="left"><a href="https://arxiv.org/pdf/1702.02463">Video Frame Synthesis Using Deep Voxel Flow</a></td><td align="center">ICCV</td><td align="center">2017</td></tr>
+
 </tbody>
 </table>
 
-
-
-### 2.2.2 Flow-based
+## 2.2.2 Flow-based
 <table>
 <thead>
 <tr>
