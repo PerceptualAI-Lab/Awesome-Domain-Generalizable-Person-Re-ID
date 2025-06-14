@@ -227,13 +227,7 @@ We categorize recent DG-ReID papers by methodology:
 
 ## 📊 Datasets & Benchmarks 
 
-We include commonly used datasets for evaluating VFI performance.  
-Datasets are categorized into **Triplet** and **Multi-frame** types depending on the supervision format.
-
-### 🔹 Triplet Datasets
-
-Early learning-based VFI approaches primarily rely on triplet datasets, where two input frames are used to predict the temporally centered GT frame.
-
+We include commonly used datasets for evaluating DG-ReID performance.  
 
 | Dataset    | Venue   | Type | #ID                | #Image        | #Cam /| URL                                           |
 | ---------- | ------- | ------- | ------------------------- | ------------ | ------------------- | --------------------------------------------- |
