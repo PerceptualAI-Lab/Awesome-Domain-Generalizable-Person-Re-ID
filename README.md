@@ -82,7 +82,7 @@ The overview of our survey paper:
 
 ## 📄 Paper List
 
-We categorize recent VFI papers by methodology:  
+We categorize recent DG-ReID papers by methodology:  
 
 
 ## Normalization-based
@@ -95,8 +95,7 @@ We categorize recent VFI papers by methodology:
 </tr>
 </thead>
 <tbody>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=44281">Fractional Frame Rate Up-conversion Using Weighted Median Filters</a></td><td align="center">IEEE Transactions on Consumer Electronics</td><td align="center">1989</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Niklaus_Video_Frame_Interpolation_CVPR_2017_paper.pdf">Video Frame Interpolation via Adaptive Convolution</a></td><td align="center">CVPR</td><td align="center">2017</td></tr>
+<tr><td align="left"><a href="[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=44281](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jin_Style_Normalization_and_Restitution_for_Generalizable_Person_Re-Identification_CVPR_2020_paper.pdf)">Style Normalization and Restitution for Generalizable Person Re-Identification</a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
 </tbody>
 </table>
 
