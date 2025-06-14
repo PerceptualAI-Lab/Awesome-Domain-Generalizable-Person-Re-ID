@@ -36,7 +36,7 @@ Person Re-identification (ReID) aims to retrieve images of the same individual c
 
 ## 📣 News
 
-- 📌 2025-06: Paper released to ArXiv.
+- 📌 2025-06: Paper accepted on Neurocomputing and repository initialized
 - 🚀 2025-05: Repository initialized.
 
 ---
@@ -45,38 +45,33 @@ Person Re-identification (ReID) aims to retrieve images of the same individual c
 
 If you find this survey helpful, please consider citing us:
 
+Comming Soon!
+
 ```citation
-@article{Kye2025AceVFI,
-  title={AceVFI: A Comprehensive Survey of Advances in Video Frame Interpolation},
-  author={Kye, Dahyeon and Roh, Changhyun and Ko, Sukhun and Eom, Chanho and Oh, Jihyong},
-  journal={arXiv preprint arXiv:2506.01061},
-  year={2025}
-}
+
 ```
 ---
 
 ## 🧩 Community Contribution
 
-We welcome contributions from the VFI research community!
+We welcome contributions from the Person Re-identification (ReID) research community!
 
-If you have a new method, dataset, or related resource that fits within the scope of this VFI repository,
+If you have a new method, dataset, or related resource that fits within the scope of this ReID repository,
 please feel free to submit a pull request (PR) with the following:
 
 A brief description of your method/resource.
 
 Relevant links (e.g., arXiv, project page, code).
 
-Suggested placement (e.g., under “2.3 Diffusion Model-based", "6.4 Joint Task”).
-
 Our maintainers will review your submission and merge it if appropriate.
-We hope this page will grow into a collaborative hub for Video Frame Interpolation (VFI) research.
+We hope this page will grow into a collaborative hub for ReID research.
 
 ---
 
 ## 🔍 Survey Paper
 
 You can find the preprint of our survey here:  
-📄 [arXiv:2506.01061](https://arxiv.org/abs/2506.01061)
+📄 Comming Soon!
 
 
 The overview of our survey paper:
