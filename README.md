@@ -1,22 +1,16 @@
-# Awesome-Video-Frame-Interpolation
-### <img src="https://github.com/CMLab-Korea/Awesome-Video-Frame-Interpolation/blob/main/media/icon2.png?raw=true" width="20" style="vertical-align: middle;"> AceVFI: A Comprehensive Survey of Advances in Video Frame Interpolation
-
-<p align="center">
-  <img src="https://github.com/CMLab-Korea/Awesome-Video-Frame-Interpolation/blob/main/media/figure.png?raw=true" alt="figure">
-</p>
-
-
+# Awecome-Domain-Generalizable-Person-Re-identification
+Domain Generalization for Person Re-identification: A Survey Towards Domain-Agnostic Person Matching
 
 [![awesome](https://img.shields.io/badge/awesome-yes-critical?style=flat&logo=awesome-lists&labelColor=purple)](https://github.com/sindresorhus/awesome)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=CMLab-Korea.Awesome-Video-Frame-Interpolation)](https://github.com/CMLab-Korea/Awesome-Video-Frame-Interpolation)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID)](https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID)
 [![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/2506.01061)
-[![Stars](https://img.shields.io/github/stars/CMLab-Korea/Awesome-Video-Frame-Interpolation.svg?style=social&label=Star)](https://github.com/CMLab-Korea/Awesome-Video-Frame-Interpolation)
+[![Stars](https://img.shields.io/github/stars/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID.svg?style=social&label=Star)]([https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID])
 
 
 This repository provides a curated collection of papers, benchmarks, and resources from our survey:  
-**"AceVFI: A Comprehensive Survey of Advances in Video Frame Interpolation"** (arXiv2025).
+**"Domain Generalization for Person Re-identification: A Survey Towards Domain-Agnostic Person Matching"** (Neurocomputing 2025).
 
-> 📝 **Authors**: Dahyeon Kye, Changhyun Roh, Sukhun Ko, Chanho Eom, Jihyong Oh†
+> 📝 **Authors**: Hyeonseo Lee, Juhyun Park, Jihyong Oh, Chanho Eom†
 
 > 🎓 **Institution**: Chung-Ang University, GSAIM  
 
