@@ -95,7 +95,11 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=44281](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jin_Style_Normalization_and_Restitution_for_Generalizable_Person_Re-Identification_CVPR_2020_paper.pdf">Style Normalization and Restitution for Generalizable Person Re-Identification</a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=44281](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jin_Style_Normalization_and_Restitution_for_Generalizable_Person_Re-Identification_CVPR_2020_paper.pdf">Style Normalization and Restitution for Generalizable Person Re-Identification</a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_Meta_Batch-Instance_Normalization_for_Generalizable_Person_Re-Identification_CVPR_2021_paper.pdf">Meta Batch-Instance Normalization for Generalizable Person Re-Identification</a></td><td align="center">CVPR</td><td align="center">2021</td></tr>
+  <tr><td align="left"><a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136740209.pdf">Adaptive Cross-Domain Learning for Generalizable Person Re-Identification</a></td><td align="center">ECCV</td><td align="center">2022</td></tr>
+  <tr><td align="left"><a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136740279.pdf">Dynamically Transformed Instance Normalization Network for Generalizable Person Re-Identification</a></td><td align="center">ECCV</td><td align="center">2022</td></tr>
+  <tr><td align="left"><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08753.pdf">Rethinking Normalization Layers for Domain Generalizable Person Re-identification</a></td><td align="center">ECCV</td><td align="center">2022</td></tr>
 </tbody>
 </table>
 
@@ -110,7 +114,8 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-
+  <tr><td align="left"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_Generalizable_Person_Re-Identification_With_Relevance-Aware_Mixture_of_Experts_CVPR_2021_paper.pdf">Generalizable Person Re-identification with Relevance-aware Mixture of Experts</a></td><td align="center">CVPR</td><td align="center">2021</td></tr>
+  <tr><td align="left"><a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136740362.pdf">Mimic Embedding via Adaptive Aggregation: Learning Generalizable Person Re-identification</a></td><td align="center">ECCV</td><td align="center">2022</td></tr>
 </tbody>
 </table>
 
@@ -124,7 +129,9 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-
+  <tr><td align="left"><a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Song_Generalizable_Person_Re-Identification_by_Domain-Invariant_Mapping_Network_CVPR_2019_paper.pdf">Generalizable Person Re-identification by Domain-Invariant Mapping Network</a></td><td align="center">CVPR</td><td align="center">2019</td></tr>
+  <tr><td align="left"><a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123560443.pdf">Interpretable and Generalizable Person Re-identification with Query-adaptive Convolution and Temporal Lifting</a></td><td align="center">ECCV</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Ni_Part-Aware_Transformer_for_Generalizable_Person_Re-identification_ICCV_2023_paper.pdf">Part-Aware Transformer for Generalizable Person Re-identification</a></td><td align="center">ICCV</td><td align="center">2023</td></tr>
 </tbody>
 </table>
 
@@ -139,7 +146,9 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
 </tbody>
 </table>
 
@@ -159,7 +168,6 @@ We categorize recent DG-ReID papers by methodology:
 </table>
 
 ## CLIP-based
-
 <table>
 <thead>
 <tr>
@@ -169,7 +177,9 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
 </tbody>
 </table>
 
@@ -184,7 +194,9 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
 </tbody>
 </table>
 
@@ -199,24 +211,9 @@ We categorize recent DG-ReID papers by methodology:
 </tr>
 </thead>
 <tbody>
-<tr><td align="left"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/333f81766b242b1837fa65c2172afb76-Paper-Datasets_and_Benchmarks_Track.pdf">LAVIB: A Large-scale Video Interpolation Benchmark</a></td><td align="center">NeurIPS</td><td align="center">2024</td></tr>
-<tr><td align="left"><a href="https://arxiv.org/pdf/2407.02371">OPENVID-1M: A Large-scale High-quality Dataset for Text-to-video Generation</a></td><td align="center">ICLR</td><td align="center">2024</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Siyao_Deep_Animation_Video_Interpolation_in_the_Wild_CVPR_2021_paper.pdf">Deep animation video interpolation in the wild</a></td><td align="center">CVPR</td><td align="center">2021</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Bain_Frozen_in_Time_A_Joint_Video_and_Image_Encoder_for_ICCV_2021_paper.pdf">Frozen in Time: A Joint Video and Image Encoder for End-to-end Retrieval</a></td><td align="center">ICCV</td><td align="center">2021</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Sim_XVFI_eXtreme_Video_Frame_Interpolation_ICCV_2021_paper.pdf">XVFI: Extreme Video Frame Interpolation</a></td><td align="center">ICCV</td><td align="center">2021</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Niklaus_Softmax_Splatting_for_Video_Frame_Interpolation_CVPR_2020_paper.pdf">Softmax Splatting for Video Frame Interpolation</a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
-<tr><td align="left"><a href="https://cdn.aaai.org/ojs/6693/6693-13-9922-1-10-20200521.pdf">Channel Attention Is All You Need for Video Frame Interpolation</a></td><td align="center">AAAI</td><td align="center">2020</td></tr>
-<tr><td align="left"><a href="https://openreview.net/pdf/3ae72db22e8443112a8e7e61a943c8044053e135.pdf">MEMC-Net: Motion Estimation and Motion Compensation Driven Neural Network for Video Interpolation and Enhancement</a></td><td align="center">IEEE Transactions on Pattern Analysis and Machine Intelligence</td><td align="center">2019</td></tr>
-<tr><td align="left"><a href="https://arxiv.org/pdf/1711.09078">Video enhancement with task-oriented flow</a></td><td align="center">International Journal of Computer Vision</td><td align="center">2019</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Su_Deep_Video_Deblurring_CVPR_2017_paper.pdf">Deep Video Deblurring for Hand-held Cameras</a></td><td align="center">CVPR</td><td align="center">2017</td></tr>
-<tr><td align="left"><a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Nah_Deep_Multi-Scale_Convolutional_CVPR_2017_paper.pdf">Deep Multi-scale Convolutional Neural Network for Dynamic Scene Deblurring</a></td><td align="center">CVPR</td><td align="center">2017</td></tr>
-<tr><td align="left"><a href="https://arxiv.org/pdf/1702.02463">Video Frame Synthesis Using Deep Voxel Flow</a></td><td align="center">ICCV</td><td align="center">2017</td></tr>
-<tr><td align="left"><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.pdf">A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation</a></td><td align="center">CVPR</td><td align="center">2016</td></tr>
-<tr><td align="left"><a href="https://arxiv.org/pdf/1212.0402">UCF101: A Dataset of 101 Human Actions Classes From Videos in the Wild</a></td><td align="center">CRCV</td><td align="center">2012</td></tr>
-<tr><td align="left"><a href="https://www.cvlibs.net/publications/Geiger2012CVPR.pdf">Are We Ready for Autonomous Driving? the Kitti Vision Benchmark Suite</a></td><td align="center">CVPR</td><td align="center">2012</td></tr>
-<tr><td align="left"><a href="https://files.is.tue.mpg.de/black/papers/ButlerECCV2012.pdf">A Naturalistic Open Source Movie for Optical Flow Evaluation</a></td><td align="center">ECCV</td><td align="center">2012</td></tr>
-<tr><td align="left"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4408903">A Database and Evaluation Methodology for Optical Flow</a></td><td align="center">International Journal of Computer Vision</td><td align="center">2011</td></tr>
-<tr><td align="left"><a href="https://media.xiph.org/video/derf/">Xiph.org Video Test Media (derf's Collection)</a></td><td align="center"></td><td align="center">1994</td></tr>
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
+  <tr><td align="left"><a href=""> </a></td><td align="center">CVPR</td><td align="center">2020</td></tr>
 </tbody>
 </table>
 
