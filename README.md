@@ -236,7 +236,7 @@ Early learning-based VFI approaches primarily rely on triplet datasets, where tw
 
 
 | Dataset    | Venue   | Type | #ID                | #Image        | #Cam /| URL                                           |
-| ---------- | ------- | ---- | ------------------------- | ------------ | ------------------- | --------------------------------------------- |
+| ---------- | ------- | ------- | ------------------------- | ------------ | ------------------- | --------------------------------------------- |
 | CUHK01  | ACCV'12   | 🔹 Train | 971 | 3,884 | 2 | [🔗](https://vision.middlebury.edu/flow/data/) |
 | CUHK02     | ACCV'12 | 🔹 Train  | 1,816 | 7,264 | 10 | [🔗](https://www.crcv.ucf.edu/data/UCF101.php) |
 | CUHK03   | CVPR'14 | 🔹 Train  | 1,476 | 13,164 | 2 | [🔗](http://toflow.csail.mit.edu/)             |
@@ -244,7 +244,6 @@ Early learning-based VFI approaches primarily rely on triplet datasets, where tw
 | CUHK-SYSU      | CVPR'17 | 🔹 Train  | 8,432 | 18,184 | 1 | [🔗](https://github.com/lisiyao21/AnimeInterp) |
 | Duke-MTMC      | ICCV'17 | 🔹 Train  | 1,404 | 36,411 | 8 | [🔗](https://github.com/lisiyao21/AnimeInterp) |
 | MSMT17      | CVPR'18 | 🔹 Train  | 4,101 | 126,441 | 15 | [🔗](https://github.com/lisiyao21/AnimeInterp) |
-| ---------- | ------- | ---- | ------------------------- | ------------ | ------------------- | --------------------------------------------- |
 | PRID2011 | SCIA'11 | 🔸 Test  | 200 | 1,134 | 2 | [🔗](https://myungsub.github.io/CAIN/)         |
 | VIPeR | PETS'07 | 🔸 Test  | 632 | 1,264 | 2 | [🔗](https://github.com/lisiyao21/AnimeInterp) |
 | iLIDS | ECCV'18 | 🔸 Test  | 119 | 476 | 2 | [🔗](https://github.com/lisiyao21/AnimeInterp) |
