@@ -347,4 +347,4 @@ These metrics evaluate spatiotemporal coherence across video sequences, importan
 ---
 ## 💫 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=CMLab-Korea/Awesome-Video-Frame-Interpolation&type=Date)](https://www.star-history.com/#CMLab-Korea/Awesome-Video-Frame-Interpolation&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID&type=Date)](https://www.star-history.com/#PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID&Date)
