@@ -1,13 +1,4 @@
 # Awecome-Domain-Generalizable-Person-Re-identification
-Domain Generalization for Person Re-identification: A Survey Towards Domain-Agnostic Person Matching
-
-[![awesome](https://img.shields.io/badge/awesome-yes-critical?style=flat&logo=awesome-lists&labelColor=purple)](https://github.com/sindresorhus/awesome)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID)](https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID)
-[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/2506.01061)
-[![Stars](https://img.shields.io/github/stars/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID.svg?style=social&label=Star)]([https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID])
-
-
-This repository provides a curated collection of papers, benchmarks, and resources from our survey:  
 **"Domain Generalization for Person Re-identification: A Survey Towards Domain-Agnostic Person Matching"** (Neurocomputing 2025).
 
 > 📝 **Authors**: Hyeonseo Lee, Juhyun Park, Jihyong Oh, Chanho Eom†
@@ -25,48 +16,12 @@ Person Re-identification (ReID) aims to retrieve images of the same individual c
 
 ## 📚 Contents
 
-- [📣 News](#-news)
-- [🔖 Citation](#-citation)
-- [🔍 Survey Paper](#-survey-paper)
 - [📄 Paper List](#-paper-list)
 - [📊 Datasets & Benchmarks](#-datasets--benchmarks)
-- [📈 Evaluation Metrics](#-evaluation-metrics)
+- [📣 News](#-news)
+- [🔍 Survey Paper](#-survey-paper)
+- [🔖 Citation](#-citation)
 
----
-
-## 📣 News
-
-- 📌 2025-06: Paper accepted on Neurocomputing and repository initialized
-- 🚀 2025-05: Repository initialized.
-
----
-
-## 🔖 Citation
-
-If you find this survey helpful, please consider citing us:
-
-Comming Soon!
-
-```citation
-
-```
----
-
-## 🧩 Community Contribution
-
-We welcome contributions from the Person Re-identification (ReID) research community!
-
-If you have a new method, dataset, or related resource that fits within the scope of this ReID repository,
-please feel free to submit a pull request (PR) with the following:
-
-A brief description of your method/resource.
-
-Relevant links (e.g., arXiv, project page, code).
-
-Our maintainers will review your submission and merge it if appropriate.
-We hope this page will grow into a collaborative hub for ReID research.
-
----
 
 ## 🔍 Survey Paper
 
@@ -229,9 +184,9 @@ We categorize recent DG-ReID papers by methodology:
 
 We include commonly used datasets for evaluating DG-ReID performance.  
 
-| Dataset    | Venue   | Type | #ID                | #Image        | #Cam | URL                                           |
-| ---------- | ------- | ------- | ------------------------- | ------------ | ------------------- | --------------------------------------------- |
-| CUHK01  | ACCV'12   | 🔹 Train | 971 | 3,884 | 2 | [🔗](https://vision.middlebury.edu/flow/data/) |
+| Dataset    | Venue   | Type | #ID                | #Image        | #Cam | URL                                           | Paper |
+| ---------- | ------- | ------- | ------------------------- | ------------ | ------------------- | --------------------------------------------- | ---------------------- |
+| CUHK01  | ACCV'12   | 🔹 Train | 971 | 3,884 | 2 | [🔗](https://vision.middlebury.edu/flow/data/) | [🔗](https://link.springer.com/chapter/10.1007/978-3-642-37331-2_3) Human re-identification with transferred metric learning
 | CUHK02     | ACCV'12 | 🔹 Train  | 1,816 | 7,264 | 10 | [🔗](https://www.crcv.ucf.edu/data/UCF101.php) |
 | CUHK03   | CVPR'14 | 🔹 Train  | 1,476 | 13,164 | 2 | [🔗](http://toflow.csail.mit.edu/)             |
 | Market-1501   | ICCV'15 | 🔹 Train  | 1,501 | 32,688 | 6 | [🔗](https://myungsub.github.io/CAIN/)         |
@@ -243,6 +198,41 @@ We include commonly used datasets for evaluating DG-ReID performance.
 | iLIDS | ECCV'18 | 🔸 Test  | 119 | 476 | 2 | [🔗](https://github.com/lisiyao21/AnimeInterp) |
 | GRID | ICIP'13 | 🔸 Test  | 250 | 1,275 | 8 | [🔗](https://github.com/lisiyao21/AnimeInterp) |
 
+---
+
+## 📣 News
+
+- 📌 2025-06: Paper accepted on Neurocomputing and repository initialized
+- 🚀 2025-05: Repository initialized.
+
+---
+
+## 🔖 Citation
+
+If you find this survey helpful, please consider citing us:
+
+Comming Soon!
+
+```citation
+
+```
+---
+
+## 🧩 Community Contribution
+
+We welcome contributions from the Person Re-identification (ReID) research community!
+
+If you have a new method, dataset, or related resource that fits within the scope of this ReID repository,
+please feel free to submit a pull request (PR) with the following:
+
+A brief description of your method/resource.
+
+Relevant links (e.g., arXiv, project page, code).
+
+Our maintainers will review your submission and merge it if appropriate.
+We hope this page will grow into a collaborative hub for ReID research.
+
+---
 ---
 ## 💫 Star History
 
