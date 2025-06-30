@@ -185,7 +185,7 @@ We categorize recent DG-ReID papers by methodology:
 We include commonly used datasets for evaluating DG-ReID performance.  
 
 | Dataset    | Venue   | Type | #ID                | #Image        | #Cam | URL                                           | Paper |
-| ---------- | ------- | ------- | ------------------------- | ------------ | ------------------- | --------------------------------------------- | ---------------------- |
+| ---------- | ------- | ------- | ------------------------- | ------------ | -------------- | --------------------------------------- | ---------------------- |
 | CUHK01  | ACCV'12   | 🔹 Train | 971 | 3,884 | 2 | [🔗](https://vision.middlebury.edu/flow/data/) | [🔗](https://link.springer.com/chapter/10.1007/978-3-642-37331-2_3) Human re-identification with transferred metric learning
 | CUHK02     | ACCV'12 | 🔹 Train  | 1,816 | 7,264 | 10 | [🔗](https://www.crcv.ucf.edu/data/UCF101.php) |
 | CUHK03   | CVPR'14 | 🔹 Train  | 1,476 | 13,164 | 2 | [🔗](http://toflow.csail.mit.edu/)             |
