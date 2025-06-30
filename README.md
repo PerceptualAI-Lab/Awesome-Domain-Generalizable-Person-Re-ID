@@ -167,8 +167,7 @@ We include commonly used datasets for evaluating DG-ReID performance.
 
 ## 🔍 Survey Paper
 
-You can find the preprint of our survey here:  
-[](https://arxiv.org/abs/2506.12413)
+You can find the preprint of our survey [here](https://arxiv.org/abs/2506.12413)
 
 
 The overview of our survey paper:
