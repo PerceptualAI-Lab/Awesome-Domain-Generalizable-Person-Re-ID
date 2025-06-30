@@ -1,16 +1,10 @@
 # Awecome-Domain-Generalizable-Person-Re-identification
 **"Domain Generalization for Person Re-identification: A Survey Towards Domain-Agnostic Person Matching"** (Neurocomputing 2025).
 
-> 📝 **Authors**: Hyeonseo Lee, Juhyun Park, Jihyong Oh, Chanho Eom†
-
-> 🎓 **Institution**: Chung-Ang University, GSAIM  
-
----
-
-## 📘 Abstract
-
-Person Re-identification (ReID) aims to retrieve images of the same individual captured across non-overlapping camera views, making it a critical component of intelligent surveillance systems. Traditional ReID methods assume that the training and test domains share similar characteristics and primarily focus on learning discriminative features within a given domain. However, they often fail to generalize to unseen domains due to domain shifts caused by variations in viewpoint, background, and lighting conditions. To address this issue, Domain-Adaptive ReID (DA-ReID) methods have been proposed. These approaches incorporate unlabeled target domain data during training and improve performance by aligning feature distributions between source and target domains. However, their reliance on access to target domain data limits their scalability and makes them less suitable for real-world deployments, where such data may not be available in advance. Domain-Generalizable ReID (DG-ReID) tackles a more realistic and challenging setting by aiming to learn domain-invariant features without relying on any target domain data. Recent methods have explored various strategies to enhance generalization across diverse environments, but the field remains relatively underexplored. In this paper, we present a comprehensive survey of DG-ReID. We first review the architectural components of DG-ReID including the overall setting, commonly used backbone networks and multi-source input configurations. Then, we categorize and analyze domain generalization modules that explicitly aim to learn domain-invariant and identity-discriminative representations. To examine the broader applicability of these techniques, we further conduct a case study on a related task that also involves distribution shifts. Finally, we discuss recent trends, open challenges, and promising directions for future research in DG-ReID. To the best of our knowledge, this is the first systematic survey dedicated to DG-ReID.
-
+[![awesome](https://img.shields.io/badge/awesome-yes-critical?style=flat&logo=awesome-lists&labelColor=purple)](https://github.com/sindresorhus/awesome)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID)](https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID)
+[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/2506.12413))
+[![Stars](https://img.shields.io/github/stars/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID.svg?style=social&label=Star)]([https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID])
 
 ---
 
@@ -21,18 +15,6 @@ Person Re-identification (ReID) aims to retrieve images of the same individual c
 - [📣 News](#-news)
 - [🔍 Survey Paper](#-survey-paper)
 - [🔖 Citation](#-citation)
-
-
-## 🔍 Survey Paper
-
-You can find the preprint of our survey here:  
-📄 Comming Soon!
-
-
-The overview of our survey paper:
-![taxonomy](https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID/blob/main/figures/taxonomy.png)
-
----
 
 
 ## 📄 Paper List
@@ -180,6 +162,17 @@ We include commonly used datasets for evaluating DG-ReID performance.
 
 - 📌 2025-06: Paper accepted on Neurocomputing and repository initialized
 - 🚀 2025-05: Repository initialized.
+
+---
+
+## 🔍 Survey Paper
+
+You can find the preprint of our survey here:  
+[](https://arxiv.org/abs/2506.12413)
+
+
+The overview of our survey paper:
+![taxonomy](https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID/blob/main/figures/taxonomy.png)
 
 ---
 
