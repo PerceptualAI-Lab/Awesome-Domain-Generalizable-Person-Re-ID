@@ -3,7 +3,7 @@
 
 [![awesome](https://img.shields.io/badge/awesome-yes-critical?style=flat&logo=awesome-lists&labelColor=purple)](https://github.com/sindresorhus/awesome)
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID)](https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID)
-[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/2506.12413))
+[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/2506.12413)
 [![Stars](https://img.shields.io/github/stars/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID.svg?style=social&label=Star)]([https://github.com/PerceptualAI-Lab/Awesome-Domain-Generalizable-Person-Re-ID])
 
 ---
