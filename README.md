@@ -19,7 +19,7 @@
 
 ## 📄 Paper List
 
-We categorize recent DG-ReID papers by methodology:  
+We categorize DG-ReID papers based on their methodologies:  
 
 
 ## Normalization-based
